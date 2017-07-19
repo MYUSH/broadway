@@ -20,20 +20,21 @@ height: 220px;
   font-size: 18px;
   color: white;
 }
-.process h2 {
+h2, process {
   font-family: Helvetica;
   font-size: 32px;
   font-weight:bold;
 }
-.process h3 {
+.middle h4 {
   font-family: Helvetica;
   font-size: 23px;
   font-weight:bold;
 }
-.process p{
+.middle, p {
   font-family: Helvetica;
   font-size: 14px;
 }
+
 .middle-container, h3 {
   font-family: Helvetica;
   font-size: 23px;
@@ -46,4 +47,16 @@ background-size: cover;
 background-position: center center;
 background-repeat: no-repeat;
 height: 27px;
+}
+.office p{
+  font-style: normal;
+  font-family: Helvetica;
+  font-size: 14px;
+}
+.footer {
+  shape-margin: left;
+  font-family: Helvetica;
+  font-size: 11px;
+  background-color: dimgray;
+  color: white;
 }
